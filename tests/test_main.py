@@ -1,0 +1,6 @@
+from src.main import add
+
+def test_add():
+    assert add(1,2) == 3
+    assert add(1,4) == 5
+    assert add(1,5) == 6
